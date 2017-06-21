@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Theme.Base" parent="Theme.AppCompat.Light">
+        <item name="android:colorPrimaryDark">#4d5d80</item>
+        <item name="android:navigationBarColor">#0b0b30</item>
+    </style>
+
+    <style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Base.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Base.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Base.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

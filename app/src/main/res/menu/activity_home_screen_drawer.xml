@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="Where am I" />
+
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="Test" />
+       <!-- <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Test2" />-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send SOS Alert" />
+           <!-- <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title=" " />-->
+        </menu>
+    </item>
+
+</menu>
